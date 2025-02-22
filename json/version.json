@@ -1,0 +1,7 @@
+{
+    "versionCode": 231224,
+    "versionName": "2.2.0",
+    "updateDate": "2023年12月24日",
+    "change": "-优化 UI<br>-计算器 支持科学计算器<br>-WebDev 支持重命名页面<br>-更改 项目内目录及文件命名规则，部分应用需重新添加（不会丢失数据）",
+    "spinner": "display: none !important;"
+}
