@@ -109,25 +109,26 @@
             app.style.display="flex";
             app.src = appname;
             document.getElementById("icons").style.display = "none";
-	    document.getElementById("bk").style.display = "flex";
+	        document.getElementById("bk").style.display = "flex";
             // 这里可以添加打开对应应用的逻辑，比如使用window.location或其他方式
         }
-	function home() {
-            app.style.display="none";
-	    document.getElementById("bk").style.display = "none";
-            document.getElementById("icons").style.display = "flex";
+	    function home() {
+                app.style.display="none";
+	            document.getElementById("bk").style.display = "none";
+                document.getElementById("icons").style.display = "flex";
             // 这里可以添加打开对应应用的逻辑，比如使用window.location或其他方式
-        }	function ControlCenter(){
-	    document.getElementById("Menu").style.height="0%";
-	    for(i = 1; i <= 61; i++){
-		document.getElementById("Menu").style.height= i.toString() + "%";
+        }
+        function ControlCenter(){
+	        document.getElementById("Menu").style.height="0%";
+	        for(i = 1; i <= 61; i++){
+		        document.getElementById("Menu").style.height= i.toString() + "%";
+	        }
 	    }
-	}
-        function NoneDock(){
-            document.getElementById("under_control").style.opacity = 0.45;
-        }
-        setInterval(updateTime, 1000);
-        updateTime(); // 立即显示一次当前时间
+    function NoneDock(){
+        document.getElementById("under_control").style.opacity = 0.45;
+    }
+    setInterval(updateTime, 1000);
+    updateTime(); // 立即显示一次当前时间
     </script>
     <div id="under_control" style="position: absolute; bottom: 0; flex-end; width: 100%; height: 40px; background-color: white;">
         
